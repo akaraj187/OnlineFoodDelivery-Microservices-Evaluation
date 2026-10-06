@@ -1,10 +1,7 @@
 # Cloud Computing Lab - Evaluation 1
 ## Experiment: Build, Deploy and Analyze a Containerized Microservice Application Under Varying Workloads
 
-**Student Name:** Akash N Raj  
-**GitHub Account:** [akaraj187](https://github.com/akaraj187)  
-**Repository:** [OnlineFoodDelivery-Microservices-Evaluation](https://github.com/akaraj187/OnlineFoodDelivery-Microservices-Evaluation)  
-**Application Domain:** Online Food Delivery & Restaurant Fulfillment System  
+ 
 
 ---
 
