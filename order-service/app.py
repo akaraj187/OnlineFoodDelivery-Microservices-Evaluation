@@ -4,7 +4,7 @@ import uuid
 import hashlib
 import sqlite3
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
@@ -52,6 +52,10 @@ def simulate_cpu_work(iterations=5000):
     for _ in range(iterations):
         data = hashlib.sha256(data).digest()
     return data.hex()[:16]
+
+@app.route('/', methods=['GET'])
+def index():
+    return render_template('index.html')
 
 @app.route('/health', methods=['GET'])
 def health():
