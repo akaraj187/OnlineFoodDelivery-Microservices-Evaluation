@@ -1,5 +1,5 @@
 # Cloud Computing Lab - Evaluation 1
-## Experiment: Build, Deploy and Analyze a Containerized Microservice Application Under Varying Workloads
+Build, Deploy and Analyze a Containerized Microservice Application Under Varying Workloads
 
  
 
